@@ -1,0 +1,90 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - big > resource-mesh > resource-http > express > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > send > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > express-session > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > finalhandler > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > compression > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-index > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > body-parser > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > connect-timeout > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > morgan > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-static > send > debug:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:http-signature:20150122':
+    - resource-email > sendgrid > request > http-signature:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:mime:20170907':
+    - big > resource-mesh > resource-http > express > send > mime:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-static > send > mime:
+        patched: '2020-01-14T15:14:21.487Z'
+    - resource-email > sendgrid > request > mime:
+        patched: '2020-01-14T15:14:21.487Z'
+    - resource-email > sendgrid > request > form-data > mime:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:ms:20170412':
+    - big > resource-mesh > resource-http > express > send > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > send > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > connect-timeout > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > morgan > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-index > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > compression > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > body-parser > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > connect-timeout > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > express-session > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > finalhandler > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-static > send > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-static > send > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-favicon > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:ms:20151024':
+    - big > resource-mesh > engine.io > debug > ms:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:negotiator:20160616':
+    - big > resource-mesh > resource-http > express > connect > compression > accepts > negotiator:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > resource-http > express > connect > serve-index > accepts > negotiator:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:qs:20140806-1':
+    - resource-email > sendgrid > request > qs:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:request:20160119':
+    - resource-email > sendgrid > request:
+        patched: '2020-01-14T15:14:21.487Z'
+  'npm:ws:20160920':
+    - big > resource-mesh > engine.io > ws:
+        patched: '2020-01-14T15:14:21.487Z'
+    - big > resource-mesh > engine.io-client > ws:
+        patched: '2020-01-14T15:14:21.487Z'
