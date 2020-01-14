@@ -1,3 +1,4 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/l1kw1d/Cookies/badge.svg?targetFile=package.json)](https://snyk.io/test/github/l1kw1d/Cookies?targetFile=package.json)
 <img src="https://hook.io/img/logo.png"></img>
 ## Open-Source Microservice Hosting Platform 
 
